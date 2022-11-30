@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
+import Head from 'next/head'
+import Image from 'next/image'
 
-const Home: NextPage = () => {
-  return <div><h1>안녕하세요??</h1></div>
-};
-
-export default Home;
+export default function Home() {
+  return <div><h1>hi</h1></div>
+}
